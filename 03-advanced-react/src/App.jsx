@@ -1,4 +1,4 @@
-import Starter from './tutorial/02-useEffect/05-cleanup-function';
+import Starter from './tutorial/03-conditional-rendering/07-user-challenge';
 
 function App() {
   return (
