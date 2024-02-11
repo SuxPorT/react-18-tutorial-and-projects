@@ -1,11 +1,10 @@
-import List from './tutorial/05-leverage-javascript/List';
+import Starter from './tutorial/06-forms/05-form-data';
 
 function App() {
   return (
     <>
       <div className='container'>
-        <h2>Leverage JavaScript</h2>
-        <List />
+        <Starter />
       </div>
     </>
   );
