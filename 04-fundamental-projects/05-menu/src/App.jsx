@@ -6,7 +6,7 @@ import items from './data';
 
 const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 
-function App() {
+const App = () => {
   const [menuItems, setMenuItems] = useState(items);
   const [categories] = useState(allCategories);
 
@@ -29,6 +29,6 @@ function App() {
       </section>
     </main>
   );
-}
+};
 
 export default App;
